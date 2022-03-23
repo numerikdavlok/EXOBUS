@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <title>Exobus</title>
+     <!--polices d'écriture un peu cool-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="enTete">
+     <nav> <!--ceci est la nav bar-->
+        <a href="/index.html">
+            <img src="/images/LOGO_EXO_BUS.svg" width="250" height="50">
+            </a>
+        <div class="liensNav" id="Liens-Nav">
+            <i class="bi bi-chevron-double-up" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="/presentation/presentation.html">PRESENTATION</a></li>
+                <li><a href="/progFutur/progFutur.html">PROG</a></li>
+                <li><a href="/progFutur/progFutur.html">GALLERIE</a></li> 
+                <li><a href="/contact/contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="bi bi-chevron-double-down" onclick="ShowMenu()"></i>
+        </nav>
+    </section>
+
+<!--ceci est le corps de page-->
+
+    <section> 
+    <corps> 
+        <div>
+        </div>
+    </corps>
+    </section>
+
+<!--ceci est le cul de page-->
+
+    <section>
+    <cul>
+        <div>
+        </div>
+    </cul>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("Liens-Nav");
+        function ShowMenu() {
+            navLinks.style.top ="0";
+        }
+        function hideMenu() {
+            navLinks.style.top ="-200%";
+        }
+    </script>
+
+
+</body>
+</html>
