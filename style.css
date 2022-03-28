@@ -72,11 +72,11 @@ nav .bi{
     .liensNav {
         position: absolute;
         background: rgb(53, 47, 47);
-        height: 22%;
+        height: 30%;
         width: 100%;
         top: -200%;
         right: 0;
-        z-index: 2;
+        z-index: 6;
         transition: 1s;
     }
     nav .bi{
@@ -89,6 +89,16 @@ nav .bi{
         padding-bottom: 3%;
         padding-right: 1%;
     }
+}
+
+@media(max-width: 290px){
+    .logo {
+        width: 170px;
+        height: 40px;
+    }
+    .liensNav {
+        height: 20%;
+    }  
 }
 
 /*------corps de la page-----*/
